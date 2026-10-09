@@ -10,14 +10,14 @@ Script de instalación
 
 Lo he hecho sin .env. He creado la carpeta scripts y dentro el script cockpit-install.sh.
 
-bash
+
 mkdir /scripts
 cd /scripts
 
 
 Código del script:
 
-bash
+
 #!/bin/bash
 set -e
 
@@ -38,7 +38,7 @@ echo "Accede en: https://192.168.100.10:9090"
 
 Ejecutar el script
 
-bash
+
 sudo chmod +x cockpit-install.sh
 ./cockpit-install.sh
 
